@@ -22,6 +22,9 @@ def long_planeteer_calls(planeteer_calls)# code an argument here
     else
       collection_of_calls << false
     end
+
+    if collection_of_calls.include(true)
+      true 
 end
 
 def find_the_cheese# code an argument here
