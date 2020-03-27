@@ -36,6 +36,6 @@ def find_the_cheese(array_of_snacks)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
 
   array_of_snacks.detect do |snack|
-    snack == "cheddar" || "gouda" || "camembert"
-  end 
+    snack == "cheddar" || snack == "gouda" || "camembert"
+  end
 end
