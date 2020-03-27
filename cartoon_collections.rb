@@ -15,10 +15,10 @@ end
 def long_planeteer_calls(planeteer_calls)# code an argument here
   # Your code here
   collection_of_calls = []
-  
+
   planeteer_calls.collect do |call|
     if call.length > 4
-      collection_of_calls = true
+      collection_of_calls << true
 
 end
 
