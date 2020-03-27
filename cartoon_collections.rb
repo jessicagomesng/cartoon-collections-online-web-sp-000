@@ -16,7 +16,7 @@ def long_planeteer_calls(planeteer_calls)# code an argument here
   # Your code here
   collection_of_calls = []
 
-  planeteer_calls.collect do |call|
+  planeteer_calls.each do |call|
     if call.length > 4
       collection_of_calls << true
     else
@@ -27,7 +27,7 @@ def long_planeteer_calls(planeteer_calls)# code an argument here
       true
     else
       false
-    end 
+    end
 end
 
 def find_the_cheese# code an argument here
